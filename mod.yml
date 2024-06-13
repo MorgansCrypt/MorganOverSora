@@ -1,6 +1,18 @@
-title: Morgan auto Sorter
-description: generates the folders for the models
+title: Morgan over Sora
+description: Lets you play as your favorite defective vampire, Morgan!
 assets:
+- method: binarc
+  multi:
+  - name: msg/us/sys.bar
+  - name: msg/uk/sys.bar
+  name: msg/jp/sys.bar
+  source:
+  - method: kh2msg
+    name: sys
+    source:
+    - language: en
+      name: Morgan.yml
+    type: list
 #SORA
 - name: obj/ACTOR_SORA.mdlx
   multi: 
