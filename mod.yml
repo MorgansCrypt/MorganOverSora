@@ -107,7 +107,7 @@ assets:
   source:
   - name: Textures\Sora\Base.dds
 #Sora Main HUD
-- name: remastered\obj\P_EX100.mdlx\-8.dds
+- name: remastered\obj\P_EX100.a.us\-8.dds
   platform: pc
   method: copy
   source:
