@@ -106,6 +106,12 @@ assets:
   method: copy
   source:
   - name: Textures\Sora\Base.dds
+#Sora Main HUD
+- name: remastered\obj\P_EX100.mdlx\-8.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\HUD\hud_Morgan_Base.dds
 #Textures Sora Valor
 - name: remastered\obj\P_EX100_BTLF.mdlx\-0.dds
   platform: pc
