@@ -118,12 +118,24 @@ assets:
   method: copy
   source:
   - name: Textures\Sora\Valor.dds
+#Sora Main HUD Valor
+- name: remastered\obj\P_EX100_BTLF.a.us\-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\HUD\hud_Morgan_Valor.dds
 #Textures Sora Wisdom
 - name: remastered\obj\P_EX100_MAGF.mdlx\-0.dds
   platform: pc
   method: copy
   source:
   - name: Textures\Sora\Wisdom.dds
+#Sora Main HUD Wisdom
+- name: remastered\obj\P_EX100_MAGF.a.us\-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\HUD\hud_Morgan_Wisdom.dds
 #Textures Sora KH1F
 - name: remastered\obj\P_EX100_KH1F.mdlx\-0.dds
   platform: pc
@@ -136,12 +148,24 @@ assets:
   method: copy
   source:
   - name: Textures\Sora\Master.dds
+#Sora Main HUD Master
+- name: remastered\obj\P_EX100_TRIF.a.us\-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\HUD\hud_Morgan_Master.dds
 #Textures Sora Final
 - name: remastered\obj\P_EX100_ULTF.mdlx\-0.dds
   platform: pc
   method: copy
   source:
   - name: Textures\Sora\Final.dds
+#Sora Main HUD Final
+- name: remastered\obj\P_EX100_ULTF.a.us\-10.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\HUD\hud_Morgan_Final.dds
 #Textures Sora Anti
 - name: remastered\obj\P_EX100_HTLF.mdlx\-0.dds
   platform: pc
