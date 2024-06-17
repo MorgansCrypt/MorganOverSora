@@ -136,12 +136,12 @@ assets:
   method: copy
   source:
   - name: Textures\HUD\hud_Morgan_Wisdom.dds
-#Textures Sora KH1F
+#Textures Sora Limit
 - name: remastered\obj\P_EX100_KH1F.mdlx\-0.dds
   platform: pc
   method: copy
   source:
-  - name: Textures\Sora\KH1F.dds
+  - name: Textures\Sora\Limit.dds
 #Textures Sora Master
 - name: remastered\obj\P_EX100_TRIF.mdlx\-0.dds
   platform: pc
@@ -172,6 +172,12 @@ assets:
   method: copy
   source:
   - name: Textures\Sora\Anti.dds
+#Textures Sora Anti Face
+- name: remastered\obj\P_EX100_HTLF.mdlx\-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\Sora\Anti_Face.dds
 #Textures Sora Halloween Valor
 - name: remastered\obj\P_EX100_NM_BTLF.mdlx\-0.dds
   platform: pc
