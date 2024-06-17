@@ -603,3 +603,9 @@ assets:
   method: copy
   source:
   - name: Textures\NoEDIT\-4.dds
+#Textures Sora Anti Face
+- name: remastered\obj\P_EX100_HTLF.mdlx\-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\Sora\Anti_Face.dds
