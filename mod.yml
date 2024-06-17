@@ -142,6 +142,12 @@ assets:
   method: copy
   source:
   - name: Textures\Sora\Limit.dds
+#Sora Limit HUD
+- name: remastered\obj\P_EX100_KH1F.a.us\-9.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\HUD\hud_Morgan_Base.dds
 #Textures Sora Master
 - name: remastered\obj\P_EX100_TRIF.mdlx\-0.dds
   platform: pc
