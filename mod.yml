@@ -141,7 +141,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: Textures\Sora\Limit.dds
+  - name: Textures\Sora\KH1F.dds
 #Sora Limit HUD
 - name: remastered\obj\P_EX100_KH1F.a.us\-9.dds
   platform: pc
