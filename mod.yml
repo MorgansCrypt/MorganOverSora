@@ -608,3 +608,9 @@ assets:
   method: copy
   source:
   - name: Textures\Sora\Anti_Face.dds
+#Save File Replacement
+- name: remastered\menu\us\save.2ld\US_save_2ld1.png
+  platform: pc
+  method: copy
+  source:
+  - name: UI\Saves.png
