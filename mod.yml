@@ -614,22 +614,3 @@ assets:
   method: copy
   source:
   - name: UI\Saves.png
-#Roxas Model
-- name: obj\P_EX110.mdlx
-  multi: 
-  - name: obj\P_EX110_BTLF.mdlx
-  - name: obj\P_EX110_NPC_PAJAMAS.mdlx
-  platform: pc
-  method: copy
-  source:
-  - name: obj\P_EX110_Morgan.mdlx
-#Textures Roxas
-- name: remastered\obj\P_EX110.mdlx\-0.dds
-
-  multi: 
-  - name: remastered\obj\P_EX110_BTLF.mdlx\-0.dds
-  - name: remastered\obj\P_EX110_NPC_PAJAMAS.mdlx\-0.dds
-  platform: pc
-  method: copy
-  source:
-  - name: Textures\Sora\Base.dds
