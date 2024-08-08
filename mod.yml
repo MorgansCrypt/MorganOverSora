@@ -442,6 +442,7 @@ assets:
 #Textures Sora Face NM
   - name: remastered\obj\P_EX100_NM.mdlx\-1.dds
   multi: 
+  - name: remastered\obj\P_EX100_NM.mdlx\-1.dds
   - name: remastered\obj\P_EX100_NM_BTLF.mdlx\-1.dds
   - name: remastered\obj\P_EX100_NM_MAGF.mdlx\-1.dds
   - name: remastered\obj\P_EX100_NM_KH1F.mdlx\-1.dds
@@ -633,7 +634,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: Textures\NoEDIT\-3_TR.dds
+  - name: Textures\NoEDIT\-3_NM.dds
 #Textures Sora Crown
 - name: remastered\obj\P_EX100.mdlx\-4.dds
   multi: 
