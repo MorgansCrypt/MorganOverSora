@@ -13,8 +13,7 @@ assets:
     - language: en
       name: Morgan.yml
     type: list
-
-#Model_StandardWorld
+#SORA
 - name: obj/ACTOR_SORA.mdlx
   multi: 
   - name: obj/AL14_PLAYER.mdlx
@@ -83,10 +82,7 @@ assets:
     method: copy
     source:
     - name: Base.tim
-
-#STANDARDWORLD TEXTURES
-#StandardWorld_-0.dds
-#TX_0_StandardWorld
+#Textures Sora Main
 - name: remastered\obj\P_EX100.mdlx\-0.dds
   multi: 
   - name: remastered\obj\ACTOR_SORA.mdlx\-0.dds
@@ -110,45 +106,256 @@ assets:
   method: copy
   source:
   - name: Textures\Sora\Base.dds
-#TX_0_StandardWorld_Valor
+#Sora Main HUD
+- name: remastered\obj\P_EX100.a.us\-8.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\HUD\hud_Morgan_Base.dds
+#Textures Sora Valor
 - name: remastered\obj\P_EX100_BTLF.mdlx\-0.dds
   platform: pc
   method: copy
   source:
   - name: Textures\Sora\Valor.dds
-#TX_0_StandardWorld_Wisdom
+#Sora Main HUD Valor
+- name: remastered\obj\P_EX100_BTLF.a.us\-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\HUD\hud_Morgan_Valor.dds
+#Textures Sora Wisdom
 - name: remastered\obj\P_EX100_MAGF.mdlx\-0.dds
   platform: pc
   method: copy
   source:
   - name: Textures\Sora\Wisdom.dds
-#TX_0_StandardWorld_Limit
+#Sora Main HUD Wisdom
+- name: remastered\obj\P_EX100_MAGF.a.us\-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\HUD\hud_Morgan_Wisdom.dds
+#Textures Sora Limit
 - name: remastered\obj\P_EX100_KH1F.mdlx\-0.dds
   platform: pc
   method: copy
   source:
   - name: Textures\Sora\KH1F.dds
-#TX_0_StandardWorld_Master
+#Sora Limit HUD
+- name: remastered\obj\P_EX100_KH1F.a.us\-9.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\HUD\hud_Morgan_Base.dds
+#Textures Sora Master
 - name: remastered\obj\P_EX100_TRIF.mdlx\-0.dds
   platform: pc
   method: copy
   source:
   - name: Textures\Sora\Master.dds
-#TX_0_StandardWorld_Final
+#Sora Main HUD Master
+- name: remastered\obj\P_EX100_TRIF.a.us\-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\HUD\hud_Morgan_Master.dds
+#Textures Sora Final
 - name: remastered\obj\P_EX100_ULTF.mdlx\-0.dds
   platform: pc
   method: copy
   source:
   - name: Textures\Sora\Final.dds
-#TX_0_StandardWorld_Anti
+#Sora Main HUD Final
+- name: remastered\obj\P_EX100_ULTF.a.us\-10.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\HUD\hud_Morgan_Final.dds
+#Textures Sora Anti
 - name: remastered\obj\P_EX100_HTLF.mdlx\-0.dds
   platform: pc
   method: copy
   source:
   - name: Textures\Sora\Anti.dds
-
-#FACES
-#TX_1_StandardWorld_BaseFace
+#Textures Sora Anti Face
+- name: remastered\obj\P_EX100_HTLF.mdlx\-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\Sora\Anti_Face.dds
+#Textures Sora Halloween Valor
+- name: remastered\obj\P_EX100_NM_BTLF.mdlx\-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\Halloween\Valor.dds
+#Textures Sora Halloween Wisdom
+- name: remastered\obj\P_EX100_NM_MAGF.mdlx\-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\Halloween\Wisdom.dds
+#Textures Sora Halloween KH1F
+- name: remastered\obj\P_EX100_NM_KH1F.mdlx\-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\Halloween\KH1F.dds
+#Textures Sora Halloween Master
+- name: remastered\obj\P_EX100_NM_TRIF.mdlx\-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\Halloween\Master.dds
+#Textures Sora Halloween Final
+- name: remastered\obj\P_EX100_NM_ULTF.mdlx\-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\Halloween\Final.dds
+#Textures Sora Halloween Anti
+- name: remastered\obj\P_EX100_NM_HTLF.mdlx\-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\Halloween\Anti.dds
+#Textures Sora Christmass Valor
+- name: remastered\obj\P_EX100_XM_BTLF.mdlx\-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\Christmass\Valor.dds
+#Textures Sora Christmass Wisdom
+- name: remastered\obj\P_EX100_XM_MAGF.mdlx\-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\Christmass\Wisdom.dds
+#Textures Sora Christmass KH1F
+- name: remastered\obj\P_EX100_XM_KH1F.mdlx\-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\Christmass\KH1F.dds
+#Textures Sora Christmass Master
+- name: remastered\obj\P_EX100_XM_TRIF.mdlx\-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\Christmass\Master.dds
+#Textures Sora Christmass Final
+- name: remastered\obj\P_EX100_XM_ULTF.mdlx\-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\Christmass\Final.dds
+#Textures Sora Christmass Anti
+- name: remastered\obj\P_EX100_XM_HTLF.mdlx\-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\Christmass\Anti.dds
+#Textures Tron Sora Valor
+- name: remastered\obj\P_EX100_TR_BTLF.mdlx\-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\Tron\Valor.dds
+#Textures Tron Sora Wisdom
+- name: remastered\obj\P_EX100_TR_MAGF.mdlx\-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\Tron\Wisdom.dds
+#Textures Tron Sora KH1F
+- name: remastered\obj\P_EX100_TR_KH1F.mdlx\-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\Tron\KH1F.dds
+#Textures Tron Sora Master
+- name: remastered\obj\P_EX100_TR_TRIF.mdlx\-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\Tron\Master.dds
+#Textures Tron Sora Final
+- name: remastered\obj\P_EX100_TR_ULTF.mdlx\-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\Tron\Final.dds
+#Textures Tron Sora Anti
+- name: remastered\obj\P_EX100_TR_HTLF.mdlx\-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\Tron\Anti.dds
+#Textures TimelessRiver Sora Valor
+- name: remastered\obj\P_EX100_WI_BTLF.mdlx\-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\TimelessRiver\Valor.dds
+#Textures TimelessRiver Sora Wisdom
+- name: remastered\obj\P_EX100_WI_MAGF.mdlx\-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\TimelessRiver\Wisdom.dds
+#Textures TimelessRiver Sora KH1F
+- name: remastered\obj\P_EX100_WI_KH1F.mdlx\-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\TimelessRiver\KH1F.dds
+#Textures TimelessRiver Sora Master
+- name: remastered\obj\P_EX100_WI_TRIF.mdlx\-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\TimelessRiver\Master.dds
+#Textures TimelessRiver Sora Final
+- name: remastered\obj\P_EX100_WI_ULTF.mdlx\-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\TimelessRiver\Final.dds
+#Textures TimelessRiver Sora Anti
+- name: remastered\obj\P_EX100_WI_HTLF.mdlx\-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\TimelessRiver\Anti.dds
+#Textures Sora Christmass main
+- name: remastered\obj\P_EX100_XM.mdlx\-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\Christmass\Base.dds
+#Textures Sora Tron main
+- name: remastered\obj\P_EX100_TR.mdlx\-0.dds
+  multi: 
+  - name: remastered\obj\TR_PLAYER.mdlx\-0.dds
+  - name: remastered\obj\P_EX100_TR_LIGHTCYCLE.mdlx\-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\Tron\Base.dds
+#Textures Sora TimelessRiver main
+- name: remastered\obj\P_EX100_WI.mdlx\-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\TimelessRiver\Base.dds
+#Textures Sora Halloween main
+- name: remastered\obj\P_EX100_NM.mdlx\-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\Halloween\Base.dds
+#Textures Sora Face Main
 - name: remastered\obj\P_EX100.mdlx\-1.dds
   multi: 
   - name: remastered\obj\P_EX100.mdlx\-1.dds
@@ -186,7 +393,74 @@ assets:
   method: copy
   source:
   - name: Textures\NoEDIT\-1.dds
-#TX_2_StandardWorld_Eyes
+#Textures Sora Face TR
+- name: remastered\obj\P_EX100_TR.mdlx\-1.dds
+  multi: 
+  - name: remastered\obj\P_EX100_TR.mdlx\-1.dds
+  - name: remastered\obj\TR_PLAYER.mdlx\-1.dds
+  - name: remastered\obj\P_EX100_TR_LIGHTCYCLE.mdlx\-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\NoEDIT\-1_TR.dds
+#Textures Sora Eyes TR_Valor
+- name: remastered\obj\P_EX100_TR_BTLF.mdlx\-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\NoEDIT\-1_TR_Valor.dds
+#Textures Sora Eyes TR_Wisdom
+- name: remastered\obj\P_EX100_TR_MAGF.mdlx\-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\NoEDIT\-1_TR_Wisdom.dds
+#Textures Sora Eyes TR_Master
+  - name: remastered\obj\P_EX100_TR_TRIF.mdlx\-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\NoEDIT\-1_TR_Master.dds
+#Textures Sora Eyes TR_Limit
+- name: remastered\obj\P_EX100_TR_KH1F.mdlx\-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\NoEDIT\-1_TR_Limit.dds
+#Textures Sora Eyes TR_Final
+- name: remastered\obj\P_EX100_TR_ULTF.mdlx\-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\NoEDIT\-1_TR_Final.dds
+#Textures Sora Eyes TR_Anti
+- name: remastered\obj\P_EX100_TR_HTLF.mdlx\-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\NoEDIT\-1_Anti.dds
+#Textures Sora Face NM
+  - name: remastered\obj\P_EX100_NM.mdlx\-1.dds
+  multi: 
+  - name: remastered\obj\P_EX100_NM.mdlx\-1.dds
+  - name: remastered\obj\P_EX100_NM_BTLF.mdlx\-1.dds
+  - name: remastered\obj\P_EX100_NM_MAGF.mdlx\-1.dds
+  - name: remastered\obj\P_EX100_NM_KH1F.mdlx\-1.dds
+  - name: remastered\obj\P_EX100_NM_TRIF.mdlx\-1.dds
+  - name: remastered\obj\P_EX100_NM_ULTF.mdlx\-1.dds
+  - name: remastered\obj\P_EX100_NM_HTLF.mdlx\-1.dds
+  - name: remastered\obj\P_EX100_XM_BTLF.mdlx\-1.dds
+  - name: remastered\obj\P_EX100_XM_MAGF.mdlx\-1.dds
+  - name: remastered\obj\P_EX100_XM_KH1F.mdlx\-1.dds
+  - name: remastered\obj\P_EX100_XM_TRIF.mdlx\-1.dds
+  - name: remastered\obj\P_EX100_XM_ULTF.mdlx\-1.dds
+  - name: remastered\obj\P_EX100_XM_HTLF.mdlx\-1.dds
+  - name: remastered\obj\P_EX100_XM.mdlx\-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\NoEDIT\-1_NM.dds
+#Textures Sora Eyes
 - name: remastered\obj\P_EX100.mdlx\-2.dds
   multi: 
   - name: remastered\obj\ACTOR_SORA.mdlx\-2.dds
@@ -221,7 +495,73 @@ assets:
   method: copy
   source:
   - name: Textures\NoEDIT\-2.dds
-#TX_3_StandardWorld_Mouth
+#Textures Sora Eyes TR
+- name: remastered\obj\P_EX100_TR.mdlx\-2.dds
+  multi: 
+  - name: remastered\obj\P_EX100_TR.mdlx\-2.dds
+  - name: remastered\obj\TR_PLAYER.mdlx\-2.dds
+  - name: remastered\obj\P_EX100_TR_LIGHTCYCLE.mdlx\-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\NoEDIT\-2_TR.dds
+#Textures Sora Eyes TR_Valor
+- name: remastered\obj\P_EX100_TR_BTLF.mdlx\-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\NoEDIT\-2_TR_Valor.dds
+#Textures Sora Eyes TR_Wisdom
+- name: remastered\obj\P_EX100_TR_MAGF.mdlx\-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\NoEDIT\-2_TR_Wisdom.dds
+#Textures Sora Eyes TR_Master
+  - name: remastered\obj\P_EX100_TR_TRIF.mdlx\-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\NoEDIT\-2_TR_Master.dds
+#Textures Sora Eyes TR_Limit
+- name: remastered\obj\P_EX100_TR_KH1F.mdlx\-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\NoEDIT\-2_TR_Limit.dds
+#Textures Sora Eyes TR_Final
+- name: remastered\obj\P_EX100_TR_ULTF.mdlx\-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\NoEDIT\-2_TR_Final.dds
+#Textures Sora Eyes TR_Anti
+- name: remastered\obj\P_EX100_TR_HTLF.mdlx\-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\NoEDIT\-2_Anti.dds
+#Textures Sora Eyes NM
+  - name: remastered\obj\P_EX100_NM.mdlx\-2.dds
+  multi: 
+  - name: remastered\obj\P_EX100_NM_BTLF.mdlx\-2.dds
+  - name: remastered\obj\P_EX100_NM_MAGF.mdlx\-2.dds
+  - name: remastered\obj\P_EX100_NM_KH1F.mdlx\-2.dds
+  - name: remastered\obj\P_EX100_NM_TRIF.mdlx\-2.dds
+  - name: remastered\obj\P_EX100_NM_ULTF.mdlx\-2.dds
+  - name: remastered\obj\P_EX100_NM_HTLF.mdlx\-2.dds
+  - name: remastered\obj\P_EX100_XM_BTLF.mdlx\-2.dds
+  - name: remastered\obj\P_EX100_XM_MAGF.mdlx\-2.dds
+  - name: remastered\obj\P_EX100_XM_KH1F.mdlx\-2.dds
+  - name: remastered\obj\P_EX100_XM_TRIF.mdlx\-2.dds
+  - name: remastered\obj\P_EX100_XM_ULTF.mdlx\-2.dds
+  - name: remastered\obj\P_EX100_XM_HTLF.mdlx\-2.dds
+  - name: remastered\obj\P_EX100_XM.mdlx\-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\NoEDIT\-2_NM.dds
+#Textures Sora Mouth
 - name: remastered\obj\P_EX100.mdlx\-3.dds
   multi: 
   - name: remastered\obj\ACTOR_SORA.mdlx\-3.dds
@@ -259,7 +599,43 @@ assets:
   method: copy
   source:
   - name: Textures\NoEDIT\-3.dds
-#TX_4_StandardWorld_Crown
+#Textures Sora Mouth TR
+- name: remastered\obj\P_EX100_TR.mdlx\-3.dds
+  multi:   
+  - name: remastered\obj\TR_PLAYER.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_TR_LIGHTCYCLE.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_TR_BTLF.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_TR_MAGF.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_TR_KH1F.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_TR_TRIF.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_TR_ULTF.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_TR_HTLF.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_TR_HTLF.mdlx\-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\NoEDIT\-3_TR.dds
+#Textures Sora Mouth NM
+- name: remastered\obj\P_EX100_NM.mdlx\-3.dds
+  multi:   
+  - name: remastered\obj\P_EX100_NM_BTLF.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_NM_MAGF.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_NM_KH1F.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_NM_TRIF.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_NM_ULTF.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_NM_HTLF.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_XM_BTLF.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_XM_MAGF.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_XM_KH1F.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_XM_TRIF.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_XM_ULTF.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_XM_HTLF.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_XM.mdlx\-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\NoEDIT\-3_NM.dds
+#Textures Sora Crown
 - name: remastered\obj\P_EX100.mdlx\-4.dds
   multi: 
   - name: remastered\obj\ACTOR_SORA.mdlx\-4.dds
@@ -321,43 +697,12 @@ assets:
   method: copy
   source:
   - name: Textures\NoEDIT\-4.dds
-#STANDARDWORLD HUDS
-#Base HUD
-- name: remastered\obj\P_EX100.a.us\-8.dds
+#Textures Sora Anti Face
+- name: remastered\obj\P_EX100_HTLF.mdlx\-1.dds
   platform: pc
   method: copy
   source:
-  - name: Textures\HUD\hud_Morgan_Base.dds
-#Valor HUD
-- name: remastered\obj\P_EX100_BTLF.a.us\-4.dds
-  platform: pc
-  method: copy
-  source:
-  - name: Textures\HUD\hud_Morgan_Valor.dds
-#Wisdom HUD
-- name: remastered\obj\P_EX100_MAGF.a.us\-2.dds
-  platform: pc
-  method: copy
-  source:
-  - name: Textures\HUD\hud_Morgan_Wisdom.dds
-#Limit HUD
-- name: remastered\obj\P_EX100_KH1F.a.us\-9.dds
-  platform: pc
-  method: copy
-  source:
-  - name: Textures\HUD\hud_Morgan_Base.dds
-#Master HUD
-- name: remastered\obj\P_EX100_TRIF.a.us\-5.dds
-  platform: pc
-  method: copy
-  source:
-  - name: Textures\HUD\hud_Morgan_Master.dds
-#Final HUD
-- name: remastered\obj\P_EX100_ULTF.a.us\-10.dds
-  platform: pc
-  method: copy
-  source:
-  - name: Textures\HUD\hud_Morgan_Final.dds
+  - name: Textures\Sora\Anti_Face.dds
 #Save File Replacement
 - name: remastered\menu\us\save.2ld\US_save_2ld1.png
   platform: pc
