@@ -830,13 +830,13 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: Textures\NoEDIT\-1_XM.dds
+  - name: Textures\NoEDIT\-1_NM.dds
 #TX_1_Christmas_Anti
 - name: remastered\obj\P_EX100_XM_HTLF.mdlx\-1.dds
   platform: pc0
   method: copy
   source:
-  - name: Textures\NoEDIT\-1_XM_Anti.dds
+  - name: Textures\NoEDIT\-1_NM_Anti.dds
 
 #TX_2_Christmas_Eyes
 - name: remastered\obj\P_EX100_XM.mdlx\-2.dds
@@ -850,13 +850,13 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: Textures\NoEDIT\-2_XM.dds
+  - name: Textures\NoEDIT\-2_NM.dds
 #TX_2_Christmas_Anti
 - name: remastered\obj\P_EX100_XM_HTLF.mdlx\-2.dds
   platform: pc0
   method: copy
   source:
-  - name: Textures\NoEDIT\-2_XM_Anti.dds
+  - name: Textures\NoEDIT\-2_NM_Anti.dds
 
 #TX_3_Christmas_Mouth
 - name: remastered\obj\P_EX100_XM.mdlx\-3.dds
@@ -869,12 +869,12 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: Textures\NoEDIT\-3_XM.dds
+  - name: Textures\NoEDIT\-3_NM.dds
 - name: remastered\obj\P_EX100_XM_HTLF.mdlx\-3.dds
   platform: pc0
   method: copy
   source:
-  - name: Textures\NoEDIT\-3_XM_Anti.dds
+  - name: Textures\NoEDIT\-3_NM_Anti.dds
 
 #Christmas_Crown
 #TX_4_Christmas_Crown
@@ -1008,13 +1008,13 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: Textures\NoEDIT\-1_WI.dds
+  - name: Textures\NoEDIT\-1.dds
 #TX_1_TimelessRiver_Anti
 - name: remastered\obj\P_EX100_WI_HTLF.mdlx\-1.dds
   platform: pc
   method: copy
   source:
-  - name: Textures\NoEDIT\-1_WI.dds
+  - name: Textures\NoEDIT\-1.dds
 
 #TX_2_TimelessRiver_Eyes
 #TX_1_TimelessRiver_BaseFace
@@ -1029,13 +1029,13 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: Textures\NoEDIT\-2_WI.dds
+  - name: Textures\NoEDIT\-2.dds
 #TX_2_TimelessRiver_Anti
 - name: remastered\obj\P_EX100_WI_HTLF.mdlx\-2.dds
   platform: pc0
   method: copy
   source:
-  - name: Textures\NoEDIT\-2_WI_Anti.dds
+  - name: Textures\NoEDIT\-2_Anti.dds
 
 #TX_3_TimelessRiver_Mouth
 - name: remastered\obj\P_EX100_WI.mdlx\-3.dds
@@ -1048,12 +1048,12 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: Textures\NoEDIT\-3_WI.dds
+  - name: Textures\NoEDIT\-3.dds
 - name: remastered\obj\P_EX100_WI_HTLF.mdlx\-3.dds
   platform: pc0
   method: copy
   source:
-  - name: Textures\NoEDIT\-3_WI_Anti.dds
+  - name: Textures\NoEDIT\-3_Anti.dds
 
 #TimelessRiver_Crown
 #TX_4_TimelessRiver_Crown
