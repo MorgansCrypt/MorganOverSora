@@ -903,43 +903,43 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: Textures\HUD\hud_Morgan_Base.dds
+  - name: Textures\HUD\Christmas\XMBase.dds
 #Valor HUD
 - name: remastered\obj\P_EX100_XM_BTLF.a.us\-4.dds
   platform: pc
   method: copy
   source:
-  - name: Textures\HUD\hud_Morgan_Valor.dds
+  - name: Textures\HUD\Christmas\XMValor.dds
 #Wisdom HUD
 - name: remastered\obj\P_EX100_XM_MAGF.a.us\-2.dds
   platform: pc
   method: copy
   source:
-  - name: Textures\HUD\hud_Morgan_Wisdom.dds
+  - name: Textures\HUD\Christmas\XMWisdom.dds
 #Limit HUD
 - name: remastered\obj\P_EX100_XM_KH1F.a.us\-9.dds
   platform: pc
   method: copy
   source:
-  - name: Textures\HUD\hud_Morgan_Limit.dds
+  - name: Textures\HUD\Christmas\XMLimit.dds
 #Master HUD
 - name: remastered\obj\P_EX100_XM_TRIF.a.us\-5.dds
   platform: pc
   method: copy
   source:
-  - name: Textures\HUD\hud_Morgan_Master.dds
+  - name: Textures\HUD\Christmas\XMMaster.dds
 #Final HUD
 - name: remastered\obj\P_EX100_XM_ULTF.a.us\-10.dds
   platform: pc
   method: copy
   source:
-  - name: Textures\HUD\hud_Morgan_Final.dds
+  - name: Textures\HUD\Christmas\XMFinal.dds
 #Anti HUD
 - name: remastered\obj\P_EX100_XM_HTLF.a.us\-3.dds
   platform: pc
   method: copy
   source:
-  - name: Textures\HUD\hud_Morgan_Anti.dds
+  - name: Textures\HUD\Christmas\XMAnti.dds
 
 #TIMELESS RIVER (WI)
 - name: obj/P_EX100_WI.mdlx
