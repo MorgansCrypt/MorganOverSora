@@ -184,7 +184,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: Textures\Sora\-1_Anti.dds
+  - name: Textures\NoEDIT\-1_Anti.dds
 
 
 #TX_2_StandardWorld_Eyes
@@ -221,7 +221,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: Textures\Sora\-2_Anti.dds
+  - name: Textures\NoEDIT\-2_Anti.dds
 
 #TX_3_StandardWorld_Mouth
 - name: remastered\obj\P_EX100.mdlx\-3.dds
@@ -259,7 +259,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: Textures\Sora\-3_Anti.dds
+  - name: Textures\NoEDIT\-3_Anti.dds
 
 #TX_4_StandardWorld_Crown
 - name: remastered\obj\P_EX100.mdlx\-4.dds
@@ -399,19 +399,49 @@ assets:
   - name: Textures\Tron\Anti.dds
 
 #FACES
-#TX_1_Tron_BaseFace
+#TX_1_Tron_Face
+#TX_1_Tron_Base
 - name: remastered\obj\P_EX100_TR.mdlx\-1.dds
-  multi: 
-  - name: remastered\obj\P_EX100_TR_BTLF.mdlx\-1.dds
-  - name: remastered\obj\P_EX100_TR_MAGF.mdlx\-1.dds
-  - name: remastered\obj\P_EX100_TR_KH1F.mdlx\-1.dds
-  - name: remastered\obj\P_EX100_TR_TRIF.mdlx\-1.dds
-  - name: remastered\obj\P_EX100_TR_ULTF.mdlx\-1.dds
-  - name: remastered\obj\P_EX100_TR_HTLF.mdlx\-1.dds
   platform: pc
   method: copy
   source:
   - name: Textures\NoEDIT\-1_TR.dds
+#TX_1_Tron_Valor
+- name: remastered\obj\P_EX100_TR_BTLF.mdlx\-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\NoEDIT\-1_TR_Valor.dds
+#TX_1_Tron_Wisdom
+- name: remastered\obj\P_EX100_TR_MAGF.mdlx\-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\NoEDIT\-1_TR_Wisdom.dds
+#TX_1_Tron_Limit
+- name: remastered\obj\P_EX100_TR_KH1F.mdlx\-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\NoEDIT\-1_TR_Limit.dds
+#TX_1_Tron_Master
+- name: remastered\obj\P_EX100_TR_TRIF.mdlx\-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\NoEDIT\-1_TR_Master.dds
+#TX_1_Tron_Final
+- name: remastered\obj\P_EX100_TR_ULTF.mdlx\-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\NoEDIT\-1_TR_Final.dds
+#TX_1_Tron_Anti
+- name: remastered\obj\P_EX100_TR_HTLF.mdlx\-1.dds
+  platform: pc0
+  method: copy
+  source:
+  - name: Textures\NoEDIT\-1_Anti.dds
 
 #TX_2_Tron_Eyes
 #TX_2_Tron_Base
