@@ -608,42 +608,19 @@ assets:
   - name: Textures\NoEDIT\-1_NM.dds
 
 #TX_2_Halloween_Eyes
-#TX_2_Halloween_Base
+#TX_1_Halloween_BaseFace
 - name: remastered\obj\P_EX100_NM.mdlx\-2.dds
+  multi: 
+  - name: remastered\obj\P_EX100_NM_BTLF.mdlx\-2.dds
+  - name: remastered\obj\P_EX100_NM_MAGF.mdlx\-2.dds
+  - name: remastered\obj\P_EX100_NM_KH1F.mdlx\-2.dds
+  - name: remastered\obj\P_EX100_NM_TRIF.mdlx\-2.dds
+  - name: remastered\obj\P_EX100_NM_ULTF.mdlx\-2.dds
+  - name: remastered\obj\P_EX100_NM_HTLF.mdlx\-2.dds
   platform: pc
   method: copy
   source:
   - name: Textures\NoEDIT\-2_NM.dds
-#TX_2_Halloween_Valor
-- name: remastered\obj\P_EX100_NM_BTLF.mdlx\-2.dds
-  platform: pc
-  method: copy
-  source:
-  - name: Textures\NoEDIT\-2_NM_Valor.dds
-#TX_2_Halloween_Wisdom
-- name: remastered\obj\P_EX100_NM_MAGF.mdlx\-2.dds
-  platform: pc
-  method: copy
-  source:
-  - name: Textures\NoEDIT\-2_NM_Wisdom.dds
-#TX_2_Halloween_Limit
-- name: remastered\obj\P_EX100_NM_KH1F.mdlx\-2.dds
-  platform: pc
-  method: copy
-  source:
-  - name: Textures\NoEDIT\-2_NM_Limit.dds
-#TX_2_Halloween_Master
-- name: remastered\obj\P_EX100_NM_TRIF.mdlx\-2.dds
-  platform: pc
-  method: copy
-  source:
-  - name: Textures\NoEDIT\-2_NM_Master.dds
-#TX_2_Halloween_Final
-- name: remastered\obj\P_EX100_NM_ULTF.mdlx\-2.dds
-  platform: pc
-  method: copy
-  source:
-  - name: Textures\NoEDIT\-2_NM_Final.dds
 #TX_2_Halloween_Anti
 - name: remastered\obj\P_EX100_NM_HTLF.mdlx\-2.dds
   platform: pc0
@@ -659,11 +636,15 @@ assets:
   - name: remastered\obj\P_EX100_NM_KH1F.mdlx\-3.dds
   - name: remastered\obj\P_EX100_NM_TRIF.mdlx\-3.dds
   - name: remastered\obj\P_EX100_NM_ULTF.mdlx\-3.dds
-  - name: remastered\obj\P_EX100_NM_HTLF.mdlx\-3.dds
   platform: pc
   method: copy
   source:
   - name: Textures\NoEDIT\-3_NM.dds
+- name: remastered\obj\P_EX100_NM_HTLF.mdlx\-3.dds
+  platform: pc0
+  method: copy
+  source:
+  - name: Textures\NoEDIT\-3_NM_Anti.dds
 
 #Halloween_Crown
 #TX_4_Halloween_Crown
@@ -678,7 +659,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: Textures\NoEDIT\-4_NM.dds
+  - name: Textures\NoEDIT\-4.dds
 
 #Halloween HUDS
 #Base HUD
