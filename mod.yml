@@ -330,12 +330,6 @@ assets:
   method: copy
   source:
   - name: Textures\HUD\hud_Morgan_Final.dds
-#Save File Replacement
-- name: remastered\menu\us\save.2ld\US_save_2ld1.png
-  platform: pc
-  method: copy
-  source:
-  - name: UI\Saves.png
 
 #SPACE PARANOIDS (TR)
 - name: obj/P_EX100_TR.mdlx
@@ -525,6 +519,200 @@ assets:
   - name: Textures\HUD\hud_Morgan_Master.dds
 #Final HUD
 - name: remastered\obj\P_EX100_TR_ULTF.a.us\-10.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\HUD\hud_Morgan_Final.dds
+
+
+#HALLOWEEN TOWN (NM)
+- name: obj/P_EX100_NM.mdlx
+  multi: 
+  - name: obj/P_EX100_NM_BTLF.mdlx
+  - name: obj/P_EX100_NM_MAGF.mdlx
+  - name: obj/P_EX100_NM_KH1F.mdlx
+  - name: obj/P_EX100_NM_TRIF.mdlx
+  - name: obj/P_EX100_NM_ULTF.mdlx
+  - name: obj/P_EX100_NM_HTLF.mdlx
+  method: binarc
+  source:
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: Sora.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: Base.tim
+
+#HALLOWEENTOWN TEXTURES
+#NM_-0.dds
+#TX_0_Halloween_Base
+- name: remastered\obj\P_EX100_NM.mdlx\-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\Halloween\Base.dds
+#TX_0_Halloween_Valor
+- name: remastered\obj\P_EX100_NM_BTLF.mdlx\-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\Halloween\Valor.dds
+#TX_0_Halloween_Wisdom
+- name: remastered\obj\P_EX100_NM_MAGF.mdlx\-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\Halloween\Wisdom.dds
+#TX_0_Halloween_Limit
+- name: remastered\obj\P_EX100_NM_KH1F.mdlx\-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\Halloween\KH1F.dds
+#TX_0_Halloween_Master
+- name: remastered\obj\P_EX100_NM_TRIF.mdlx\-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\Halloween\Master.dds
+#TX_0_Halloween_Final
+- name: remastered\obj\P_EX100_NM_ULTF.mdlx\-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\Halloween\Final.dds
+#TX_0_Halloween_Anti
+- name: remastered\obj\P_EX100_NM_HTLF.mdlx\-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\Halloween\Anti.dds
+
+#FACES
+#TX_1_Halloween_BaseFace
+- name: remastered\obj\P_EX100_NM.mdlx\-1.dds
+  multi: 
+  - name: remastered\obj\P_EX100_NM_BTLF.mdlx\-1.dds
+  - name: remastered\obj\P_EX100_NM_MAGF.mdlx\-1.dds
+  - name: remastered\obj\P_EX100_NM_KH1F.mdlx\-1.dds
+  - name: remastered\obj\P_EX100_NM_TRIF.mdlx\-1.dds
+  - name: remastered\obj\P_EX100_NM_ULTF.mdlx\-1.dds
+  - name: remastered\obj\P_EX100_NM_HTLF.mdlx\-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\NoEDIT\-1_NM.dds
+
+#TX_2_Halloween_Eyes
+#TX_2_Halloween_Base
+- name: remastered\obj\P_EX100_NM.mdlx\-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\NoEDIT\-2_NM.dds
+#TX_2_Halloween_Valor
+- name: remastered\obj\P_EX100_NM_BTLF.mdlx\-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\NoEDIT\-2_NM_Valor.dds
+#TX_2_Halloween_Wisdom
+- name: remastered\obj\P_EX100_NM_MAGF.mdlx\-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\NoEDIT\-2_NM_Wisdom.dds
+#TX_2_Halloween_Limit
+- name: remastered\obj\P_EX100_NM_KH1F.mdlx\-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\NoEDIT\-2_NM_Limit.dds
+#TX_2_Halloween_Master
+- name: remastered\obj\P_EX100_NM_TRIF.mdlx\-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\NoEDIT\-2_NM_Master.dds
+#TX_2_Halloween_Final
+- name: remastered\obj\P_EX100_NM_ULTF.mdlx\-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\NoEDIT\-2_NM_Final.dds
+#TX_2_Halloween_Anti
+- name: remastered\obj\P_EX100_NM_HTLF.mdlx\-2.dds
+  platform: pc0
+  method: copy
+  source:
+  - name: Textures\NoEDIT\-2_NM_Anti.dds
+
+#TX_3_Halloween_Mouth
+- name: remastered\obj\P_EX100_NM.mdlx\-3.dds
+  multi: 
+  - name: remastered\obj\P_EX100_NM_BTLF.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_NM_MAGF.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_NM_KH1F.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_NM_TRIF.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_NM_ULTF.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_NM_HTLF.mdlx\-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\NoEDIT\-3_NM.dds
+
+#Halloween_Crown
+#TX_4_Halloween_Crown
+- name: remastered\obj\P_EX100_NM.mdlx\-4.dds
+  multi: 
+  - name: remastered\obj\P_EX100_NM_BTLF.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_NM_MAGF.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_NM_KH1F.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_NM_TRIF.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_NM_ULTF.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_NM_HTLF.mdlx\-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\NoEDIT\-4_NM.dds
+
+#Halloween HUDS
+#Base HUD
+- name: remastered\obj\P_EX100_NM.a.us\-8.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\HUD\hud_Morgan_Base.dds
+#Valor HUD
+- name: remastered\obj\P_EX100_NM_BTLF.a.us\-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\HUD\hud_Morgan_Valor.dds
+#Wisdom HUD
+- name: remastered\obj\P_EX100_NM_MAGF.a.us\-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\HUD\hud_Morgan_Wisdom.dds
+#Limit HUD
+- name: remastered\obj\P_EX100_NM_KH1F.a.us\-9.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\HUD\hud_Morgan_Limit.dds
+#Master HUD
+- name: remastered\obj\P_EX100_NM_TRIF.a.us\-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\HUD\hud_Morgan_Master.dds
+#Final HUD
+- name: remastered\obj\P_EX100_NM_ULTF.a.us\-10.dds
   platform: pc
   method: copy
   source:
