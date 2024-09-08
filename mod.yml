@@ -331,7 +331,7 @@ assets:
   source:
   - name: Textures\HUD\hud_Morgan_Final.dds
 #Anti HUD
-- name: remastered\obj\P_EX100_HTLF.a.us\-10.dds
+- name: remastered\obj\P_EX100_HTLF.a.us\-3.dds
   platform: pc
   method: copy
   source:
@@ -534,43 +534,43 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: Textures\HUD\hud_Morgan_Base.dds
+  - name: Textures\HUD\Tron\TRBase.dds
 #Valor HUD
 - name: remastered\obj\P_EX100_TR_BTLF.a.us\-4.dds
   platform: pc
   method: copy
   source:
-  - name: Textures\HUD\hud_Morgan_Valor.dds
+  - name: Textures\HUD\Tron\TRValor.dds
 #Wisdom HUD
 - name: remastered\obj\P_EX100_TR_MAGF.a.us\-2.dds
   platform: pc
   method: copy
   source:
-  - name: Textures\HUD\hud_Morgan_Wisdom.dds
+  - name: Textures\HUD\Tron\TRWisdom.dds
 #Limit HUD
 - name: remastered\obj\P_EX100_TR_KH1F.a.us\-9.dds
   platform: pc
   method: copy
   source:
-  - name: Textures\HUD\hud_Morgan_Limit.dds
+  - name: Textures\HUD\Tron\TRLimit.dds
 #Master HUD
 - name: remastered\obj\P_EX100_TR_TRIF.a.us\-5.dds
   platform: pc
   method: copy
   source:
-  - name: Textures\HUD\hud_Morgan_Master.dds
+  - name: Textures\HUD\Tron\TRMaster.dds
 #Final HUD
 - name: remastered\obj\P_EX100_TR_ULTF.a.us\-10.dds
   platform: pc
   method: copy
   source:
-  - name: Textures\HUD\hud_Morgan_Final.dds
+  - name: Textures\HUD\Tron\TRFinal.dds
 #Anti HUD
-- name: remastered\obj\P_EX100_TR_HTLF.a.us\-10.dds
+- name: remastered\obj\P_EX100_TR_HTLF.a.us\-3.dds
   platform: pc
   method: copy
   source:
-  - name: Textures\HUD\hud_Morgan_Anti.dds
+  - name: Textures\HUD\Tron\TRAnti.dds
 
 
 #HALLOWEEN TOWN (NM)
@@ -750,6 +750,12 @@ assets:
   method: copy
   source:
   - name: Textures\HUD\hud_Morgan_Final.dds
+#Anti HUD
+- name: remastered\obj\P_EX100_NM_HLTF.a.us\-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\HUD\hud_Morgan_Anti.dds
 
 #CHRISTMAS TOWN (XM)
 - name: obj/P_EX100_XM.mdlx
@@ -928,6 +934,12 @@ assets:
   method: copy
   source:
   - name: Textures\HUD\hud_Morgan_Final.dds
+#Anti HUD
+- name: remastered\obj\P_EX100_XM_HTLF.a.us\-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\HUD\hud_Morgan_Anti.dds
 
 #TIMELESS RIVER (WI)
 - name: obj/P_EX100_WI.mdlx
@@ -1108,7 +1120,7 @@ assets:
   source:
   - name: Textures\HUD\hud_Morgan_Final.dds
 #Anti HUD
-- name: remastered\obj\P_EX100_WI_HTLF.a.us\-10.dds
+- name: remastered\obj\P_EX100_WI_HTLF.a.us\-3.dds
   platform: pc
   method: copy
   source:
