@@ -330,6 +330,12 @@ assets:
   method: copy
   source:
   - name: Textures\HUD\hud_Morgan_Final.dds
+#Anti HUD
+- name: remastered\obj\P_EX100_HTLF.a.us\-10.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\HUD\hud_Morgan_Anti.dds
 
 #SPACE PARANOIDS (TR)
 - name: obj/P_EX100_TR.mdlx
@@ -500,6 +506,12 @@ assets:
   method: copy
   source:
   - name: Textures\NoEDIT\-3_TR.dds
+#TX_3_Tron_Anti
+- name: remastered\obj\P_EX100_TR_HTLF.mdlx\-3.dds
+  platform: pc0
+  method: copy
+  source:
+  - name: Textures\NoEDIT\-3_TR_Anti.dds
 
 #TRON_Crown
 #TX_4_StandardWorld_Crown
@@ -553,6 +565,12 @@ assets:
   method: copy
   source:
   - name: Textures\HUD\hud_Morgan_Final.dds
+#Anti HUD
+- name: remastered\obj\P_EX100_TR_HTLF.a.us\-10.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\HUD\hud_Morgan_Anti.dds
 
 
 #HALLOWEEN TOWN (NM)
@@ -631,14 +649,18 @@ assets:
   - name: remastered\obj\P_EX100_NM_KH1F.mdlx\-1.dds
   - name: remastered\obj\P_EX100_NM_TRIF.mdlx\-1.dds
   - name: remastered\obj\P_EX100_NM_ULTF.mdlx\-1.dds
-  - name: remastered\obj\P_EX100_NM_HTLF.mdlx\-1.dds
   platform: pc
   method: copy
   source:
   - name: Textures\NoEDIT\-1_NM.dds
+#TX_1_Halloween_Anti
+- name: remastered\obj\P_EX100_NM_HTLF.mdlx\-1.dds
+  platform: pc0
+  method: copy
+  source:
+  - name: Textures\NoEDIT\-1_NM_Anti.dds
 
 #TX_2_Halloween_Eyes
-#TX_1_Halloween_BaseFace
 - name: remastered\obj\P_EX100_NM.mdlx\-2.dds
   multi: 
   - name: remastered\obj\P_EX100_NM_BTLF.mdlx\-2.dds
@@ -728,6 +750,191 @@ assets:
   method: copy
   source:
   - name: Textures\HUD\hud_Morgan_Final.dds
+
+#TIMELESS RIVER (WI)
+- name: obj/P_EX100_WI.mdlx
+  multi: 
+  - name: obj/P_EX100_WI_BTLF.mdlx
+  - name: obj/P_EX100_WI_MAGF.mdlx
+  - name: obj/P_EX100_WI_KH1F.mdlx
+  - name: obj/P_EX100_WI_TRIF.mdlx
+  - name: obj/P_EX100_WI_ULTF.mdlx
+  - name: obj/P_EX100_WI_HTLF.mdlx
+  method: binarc
+  source:
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: Sora.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: Base.tim
+
+#TIMELESSRIVER TEXTURES
+#NM_-0.dds
+#TX_0_TimelessRiver_Base
+- name: remastered\obj\P_EX100_WI.mdlx\-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\TimelessRiver\Base.dds
+#TX_0_TimelessRiver_Valor
+- name: remastered\obj\P_EX100_WI_BTLF.mdlx\-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\TimelessRiver\Valor.dds
+#TX_0_TimelessRiver_Wisdom
+- name: remastered\obj\P_EX100_WI_MAGF.mdlx\-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\TimelessRiver\Wisdom.dds
+#TX_0_TimelessRiver_Limit
+- name: remastered\obj\P_EX100_WI_KH1F.mdlx\-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\TimelessRiver\KH1F.dds
+#TX_0_TimelessRiver_Master
+- name: remastered\obj\P_EX100_WI_TRIF.mdlx\-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\TimelessRiver\Master.dds
+#TX_0_TimelessRiver_Final
+- name: remastered\obj\P_EX100_WI_ULTF.mdlx\-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\TimelessRiver\Final.dds
+#TX_0_TimelessRiver_Anti
+- name: remastered\obj\P_EX100_WI_HTLF.mdlx\-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\TimelessRiver\Anti.dds
+
+#FACES
+#TX_1_TimelessRiver_BaseFace
+- name: remastered\obj\P_EX100_WI.mdlx\-1.dds
+  multi: 
+  - name: remastered\obj\P_EX100_WI_BTLF.mdlx\-1.dds
+  - name: remastered\obj\P_EX100_WI_MAGF.mdlx\-1.dds
+  - name: remastered\obj\P_EX100_WI_KH1F.mdlx\-1.dds
+  - name: remastered\obj\P_EX100_WI_TRIF.mdlx\-1.dds
+  - name: remastered\obj\P_EX100_WI_ULTF.mdlx\-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\NoEDIT\-1_WI.dds
+#TX_1_TimelessRiver_Anti
+- name: remastered\obj\P_EX100_WI_HTLF.mdlx\-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\NoEDIT\-1_WI.dds
+
+#TX_2_TimelessRiver_Eyes
+#TX_1_TimelessRiver_BaseFace
+- name: remastered\obj\P_EX100_WI.mdlx\-2.dds
+  multi: 
+  - name: remastered\obj\P_EX100_WI_BTLF.mdlx\-2.dds
+  - name: remastered\obj\P_EX100_WI_MAGF.mdlx\-2.dds
+  - name: remastered\obj\P_EX100_WI_KH1F.mdlx\-2.dds
+  - name: remastered\obj\P_EX100_WI_TRIF.mdlx\-2.dds
+  - name: remastered\obj\P_EX100_WI_ULTF.mdlx\-2.dds
+  - name: remastered\obj\P_EX100_WI_HTLF.mdlx\-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\NoEDIT\-2_WI.dds
+#TX_2_TimelessRiver_Anti
+- name: remastered\obj\P_EX100_WI_HTLF.mdlx\-2.dds
+  platform: pc0
+  method: copy
+  source:
+  - name: Textures\NoEDIT\-2_WI_Anti.dds
+
+#TX_3_TimelessRiver_Mouth
+- name: remastered\obj\P_EX100_WI.mdlx\-3.dds
+  multi: 
+  - name: remastered\obj\P_EX100_WI_BTLF.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_WI_MAGF.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_WI_KH1F.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_WI_TRIF.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_WI_ULTF.mdlx\-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\NoEDIT\-3_WI.dds
+- name: remastered\obj\P_EX100_WI_HTLF.mdlx\-3.dds
+  platform: pc0
+  method: copy
+  source:
+  - name: Textures\NoEDIT\-3_WI_Anti.dds
+
+#TimelessRiver_Crown
+#TX_4_TimelessRiver_Crown
+- name: remastered\obj\P_EX100_WI.mdlx\-4.dds
+  multi: 
+  - name: remastered\obj\P_EX100_WI_BTLF.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_WI_MAGF.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_WI_KH1F.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_WI_TRIF.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_WI_ULTF.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_WI_HTLF.mdlx\-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\NoEDIT\-4.dds
+
+#TimelessRiver HUDS
+#Base HUD
+- name: remastered\obj\P_EX100_WI.a.us\-8.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\HUD\hud_Morgan_Base.dds
+#Valor HUD
+- name: remastered\obj\P_EX100_WI_BTLF.a.us\-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\HUD\hud_Morgan_Valor.dds
+#Wisdom HUD
+- name: remastered\obj\P_EX100_WI_MAGF.a.us\-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\HUD\hud_Morgan_Wisdom.dds
+#Limit HUD
+- name: remastered\obj\P_EX100_WI_KH1F.a.us\-9.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\HUD\hud_Morgan_Limit.dds
+#Master HUD
+- name: remastered\obj\P_EX100_WI_TRIF.a.us\-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\HUD\hud_Morgan_Master.dds
+#Final HUD
+- name: remastered\obj\P_EX100_WI_ULTF.a.us\-10.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\HUD\hud_Morgan_Final.dds
+#Anti HUD
+- name: remastered\obj\P_EX100_WI_HTLF.a.us\-10.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\HUD\hud_Morgan_Anti.dds
 
 
 #Save File Replacement
