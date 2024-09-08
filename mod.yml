@@ -751,6 +751,184 @@ assets:
   source:
   - name: Textures\HUD\hud_Morgan_Final.dds
 
+#CHRISTMAS TOWN (XM)
+- name: obj/P_EX100_XM.mdlx
+  multi: 
+  - name: obj/P_EX100_XM_BTLF.mdlx
+  - name: obj/P_EX100_XM_MAGF.mdlx
+  - name: obj/P_EX100_XM_KH1F.mdlx
+  - name: obj/P_EX100_XM_TRIF.mdlx
+  - name: obj/P_EX100_XM_ULTF.mdlx
+  - name: obj/P_EX100_XM_HTLF.mdlx
+  method: binarc
+  source:
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: Sora.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: Base.tim
+
+#CHRISTMASTOWN TEXTURES
+#NM_-0.dds
+#TX_0_Christmas_Base
+- name: remastered\obj\P_EX100_XM.mdlx\-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\Christmas\Base.dds
+#TX_0_Christmas_Valor
+- name: remastered\obj\P_EX100_XM_BTLF.mdlx\-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\Halloween\Valor.dds
+#TX_0_Christmas_Wisdom
+- name: remastered\obj\P_EX100_XM_MAGF.mdlx\-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\Christmas\Wisdom.dds
+#TX_0_Christmas_Limit
+- name: remastered\obj\P_EX100_XM_KH1F.mdlx\-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\Christmas\KH1F.dds
+#TX_0_Christmas_Master
+- name: remastered\obj\P_EX100_XM_TRIF.mdlx\-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\Christmas\Master.dds
+#TX_0_Christmas_Final
+- name: remastered\obj\P_EX100_XM_ULTF.mdlx\-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\Christmas\Final.dds
+#TX_0_Christmas_Anti
+- name: remastered\obj\P_EX100_XM_HTLF.mdlx\-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\Christmas\Anti.dds
+
+#FACES
+#TX_1_Christmas_BaseFace
+- name: remastered\obj\P_EX100_XM.mdlx\-1.dds
+  multi: 
+  - name: remastered\obj\P_EX100_XM_BTLF.mdlx\-1.dds
+  - name: remastered\obj\P_EX100_XM_MAGF.mdlx\-1.dds
+  - name: remastered\obj\P_EX100_XM_KH1F.mdlx\-1.dds
+  - name: remastered\obj\P_EX100_XM_TRIF.mdlx\-1.dds
+  - name: remastered\obj\P_EX100_XM_ULTF.mdlx\-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\NoEDIT\-1_XM.dds
+#TX_1_Christmas_Anti
+- name: remastered\obj\P_EX100_XM_HTLF.mdlx\-1.dds
+  platform: pc0
+  method: copy
+  source:
+  - name: Textures\NoEDIT\-1_XM_Anti.dds
+
+#TX_2_Christmas_Eyes
+- name: remastered\obj\P_EX100_XM.mdlx\-2.dds
+  multi: 
+  - name: remastered\obj\P_EX100_XM_BTLF.mdlx\-2.dds
+  - name: remastered\obj\P_EX100_XM_MAGF.mdlx\-2.dds
+  - name: remastered\obj\P_EX100_XM_KH1F.mdlx\-2.dds
+  - name: remastered\obj\P_EX100_XM_TRIF.mdlx\-2.dds
+  - name: remastered\obj\P_EX100_XM_ULTF.mdlx\-2.dds
+  - name: remastered\obj\P_EX100_XM_HTLF.mdlx\-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\NoEDIT\-2_XM.dds
+#TX_2_Christmas_Anti
+- name: remastered\obj\P_EX100_XM_HTLF.mdlx\-2.dds
+  platform: pc0
+  method: copy
+  source:
+  - name: Textures\NoEDIT\-2_XM_Anti.dds
+
+#TX_3_Christmas_Mouth
+- name: remastered\obj\P_EX100_XM.mdlx\-3.dds
+  multi: 
+  - name: remastered\obj\P_EX100_XM_BTLF.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_XM_MAGF.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_XM_KH1F.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_XM_TRIF.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_XM_ULTF.mdlx\-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\NoEDIT\-3_XM.dds
+- name: remastered\obj\P_EX100_XM_HTLF.mdlx\-3.dds
+  platform: pc0
+  method: copy
+  source:
+  - name: Textures\NoEDIT\-3_XM_Anti.dds
+
+#Christmas_Crown
+#TX_4_Christmas_Crown
+- name: remastered\obj\P_EX100_XM.mdlx\-4.dds
+  multi: 
+  - name: remastered\obj\P_EX100_XM_BTLF.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_XM_MAGF.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_XM_KH1F.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_XM_TRIF.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_XM_ULTF.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_XM_HTLF.mdlx\-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\NoEDIT\-4.dds
+
+#Christmas HUDS
+#Base HUD
+- name: remastered\obj\P_EX100_XM.a.us\-8.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\HUD\hud_Morgan_Base.dds
+#Valor HUD
+- name: remastered\obj\P_EX100_XM_BTLF.a.us\-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\HUD\hud_Morgan_Valor.dds
+#Wisdom HUD
+- name: remastered\obj\P_EX100_XM_MAGF.a.us\-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\HUD\hud_Morgan_Wisdom.dds
+#Limit HUD
+- name: remastered\obj\P_EX100_XM_KH1F.a.us\-9.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\HUD\hud_Morgan_Limit.dds
+#Master HUD
+- name: remastered\obj\P_EX100_XM_TRIF.a.us\-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\HUD\hud_Morgan_Master.dds
+#Final HUD
+- name: remastered\obj\P_EX100_XM_ULTF.a.us\-10.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\HUD\hud_Morgan_Final.dds
+
 #TIMELESS RIVER (WI)
 - name: obj/P_EX100_WI.mdlx
   multi: 
