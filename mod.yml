@@ -1133,3 +1133,91 @@ assets:
   method: copy
   source:
   - name: UI\Saves.png
+
+#VOICE REPLACEMENTS
+#Agrabah
+- name: voice\us\battle\al0_sora.win32.scd
+  method: copy
+  source:
+  - name: voice\us\battle\al0_sora.win32.scd
+#Beast's Castle
+- name: voice\us\battle\bb0_sora.win32.scd
+  method: copy
+  source:
+  - name: voice\us\battle\bb0_sora.win32.scd
+#Port Royal
+- name: voice\us\battle\ca0_sora.win32.scd
+  method: copy
+  source:
+  - name: voice\us\battle\ca0_sora.win32.scd
+#Disney Castle
+- name: voice\us\battle\dc0_sora.win32.scd
+  method: copy
+  source:
+  - name: voice\us\battle\dc0_sora.win32.scd
+#Beast's Castle
+- name: voice\us\battle\eh0_sora.win32.scd
+  method: copy
+  source:
+  - name: voice\us\battle\eh0_sora.win32.scd
+#Hollow Bastion
+- name: voice\us\battle\hb0_sora.win32.scd
+  method: copy
+  source:
+  - name: voice\us\battle\hb0_sora.win32.scd
+#Olympus Colisseum
+- name: voice\us\battle\he0_sora.win32.scd
+  method: copy
+  source:
+  - name: voice\us\battle\he0_sora.win32.scd
+#Pride Lands
+- name: voice\us\battle\lk0_sora.win32.scd
+  method: copy
+  source:
+  - name: voice\us\battle\lk0_sora.win32.scd
+#Atlantica
+- name: voice\us\battle\lm0_sora.win32.scd
+  method: copy
+  source:
+  - name: voice\us\battle\lm0_sora.win32.scd
+#Land of Dragons
+- name: voice\us\battle\mu0_sora.win32.scd
+  method: copy
+  source:
+  - name: voice\us\battle\mu0_sora.win32.scd
+#Halloween Town
+- name: voice\us\battle\nm0_sora.win32.scd
+  method: copy
+  source:
+  - name: voice\us\battle\nm0_sora.win32.scd
+#Roxas
+- name: voice\us\battle\n_roxas.win32.scd
+  method: copy
+  source:
+  - name: voice\us\battle\n_roxas.win32.scd
+#Hundred Acre Wood
+- name: voice\us\battle\po0_sora.win32.scd
+  method: copy
+  source:
+  - name: voice\us\battle\po0_sora.win32.scd
+#Space Paranoids
+- name: voice\us\battle\tr0_sora.win32.scd
+  method: copy
+  source:
+  - name: voice\us\battle\tr0_sora.win32.scd
+#Twilight Town Roxas
+- name: voice\us\battle\tt0_roxas.win32.scd
+  method: copy
+  source:
+  - name: voice\us\battle\tt0_roxas.win32.scd
+#Twilight Town Sora
+- name: voice\us\battle\tt0_sora.win32.scd
+  method: copy
+  source:
+  - name: voice\us\battle\tt0_sora.win32.scd
+#Timeless River
+- name: voice\us\battle\wi0_sora.win32.scd
+  method: copy
+  source:
+  - name: voice\us\battle\wi0_sora.win32.scd
+
