@@ -1126,6 +1126,49 @@ assets:
   source:
   - name: Textures\HUD\hud_Morgan_Anti.dds
 
+#BossForms Textures - Book
+- name: remastered\obj\B_EX410.mdlx\-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\Bossforms\Morgan_BOOK_TX.dds
+
+#BossForms Textures - Cards
+- name: remastered\obj\M_EX950_CARD.a.us\-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: UI\Bossforms\Morgan_CARD_UI.dds
+- name: remastered\obj\M_EX950_CARD.mdlx\-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\Bossforms\Morgan_CARD_TX.dds
+
+#BossForms Textures - Dice
+- name: remastered\obj\M_EX950_DICE.a.us\-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: UI\Bossforms\Morgan_CARD_UI.dds
+- name: remastered\obj\M_EX950_DICE.mdlx\-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\Bossforms\Morgan_DICE_TX.dds
+
+#BossGimmicks  UI - Luxord
+- name: remastered\msn\us\EH14_MS103.bar\US_EH14_MS103_bar0.png
+  platform: pc
+  method: copy
+  source:
+  - name: UI\BossGimmick\LUX_Gimmick.png
+- name: remastered\msn\us\HB33_FM_LUX.bar\US_HB33_FM_LEX_bar0.png
+  platform: pc
+  method: copy
+  source:
+  - name: UI\BossGimmick\LUX_Gimmick.png
+
 
 #Save File Replacement
 - name: remastered\menu\us\save.2ld\US_save_2ld1.png
