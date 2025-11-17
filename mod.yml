@@ -719,43 +719,43 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: Textures\HUD\hud_Morgan_Base.dds
+  - name: Textures\HUD\Halloween\NMBase.dds
 #Valor HUD
 - name: remastered\obj\P_EX100_NM_BTLF.a.us\-4.dds
   platform: pc
   method: copy
   source:
-  - name: Textures\HUD\hud_Morgan_Valor.dds
+  - name: Textures\HUD\Halloween\NMValor.dds
 #Wisdom HUD
 - name: remastered\obj\P_EX100_NM_MAGF.a.us\-2.dds
   platform: pc
   method: copy
   source:
-  - name: Textures\HUD\hud_Morgan_Wisdom.dds
+  - name: Textures\HUD\Halloween\NMWisdom.dds
 #Limit HUD
 - name: remastered\obj\P_EX100_NM_KH1F.a.us\-9.dds
   platform: pc
   method: copy
   source:
-  - name: Textures\HUD\hud_Morgan_Limit.dds
+  - name: Textures\HUD\Halloween\NMLimit.dds
 #Master HUD
 - name: remastered\obj\P_EX100_NM_TRIF.a.us\-5.dds
   platform: pc
   method: copy
   source:
-  - name: Textures\HUD\hud_Morgan_Master.dds
+  - name: Textures\HUD\Halloween\NMMaster.dds
 #Final HUD
 - name: remastered\obj\P_EX100_NM_ULTF.a.us\-10.dds
   platform: pc
   method: copy
   source:
-  - name: Textures\HUD\hud_Morgan_Final.dds
+  - name: Textures\HUD\Halloween\NMFinal.dds
 #Anti HUD
 - name: remastered\obj\P_EX100_NM_HLTF.a.us\-3.dds
   platform: pc
   method: copy
   source:
-  - name: Textures\HUD\hud_Morgan_Anti.dds
+  - name: Textures\HUD\Halloween\NMAnti.dds
 
 #CHRISTMAS TOWN (XM)
 - name: obj/P_EX100_XM.mdlx
