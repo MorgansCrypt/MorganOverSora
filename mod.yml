@@ -1138,38 +1138,38 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: UI\Bossforms\Morgan_CARD_UI.dds
+  - name: UI\BossForms\Morgan_CARD_UI.dds
 - name: remastered\obj\M_EX950_CARD.mdlx\-0.dds
   platform: pc
   method: copy
   source:
-  - name: Textures\Bossforms\Morgan_CARD_TX.dds
+  - name: Textures\BossForms\Morgan_CARD_TX.dds
 
 #BossForms Textures - Dice
 - name: remastered\obj\M_EX950_DICE.a.us\-3.dds
   platform: pc
   method: copy
   source:
-  - name: UI\Bossforms\Morgan_CARD_UI.dds
+  - name: UI\BossForms\Morgan_CARD_UI.dds
 - name: remastered\obj\M_EX950_DICE.mdlx\-0.dds
   platform: pc
   method: copy
   source:
-  - name: Textures\Bossforms\Morgan_DICE_TX.dds
+  - name: Textures\BossForms\Morgan_DICE_TX.dds
 
 #BossGimmicks  UI - Luxord
 - name: remastered\msn\us\EH14_MS103.bar\US_EH14_MS103_bar0.png
   platform: pc
   method: copy
   source:
-  - name: UI\BossGimmick\LUX_Gimmick.png
+  - name: UI\BossGimmicks\LUX_Gimmick.png
 
 #BossGimmicks  UI - Lexeus
 - name: remastered\msn\us\HB33_FM_LEX.bar\US_HB33_FM_LEX_bar0.png
   platform: pc
   method: copy
   source:
-  - name: UI\BossGimmick\LEX_Gimmick.png
+  - name: UI\BossGimmicks\LEX_Gimmick.png
 
 
 #Save File Replacement
