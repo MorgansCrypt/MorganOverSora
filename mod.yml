@@ -1143,7 +1143,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: Textures\BossForms\Morgan_CARD_TX.dds
+  - name: Textures\BossForms\Morgan_CARD_TXT.dds
 
 #BossForms Textures - Dice
 - name: remastered\obj\M_EX950_DICE.a.us\-3.dds
@@ -1155,7 +1155,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: Textures\BossForms\Morgan_DICE_TX.dds
+  - name: Textures\BossForms\Morgan_DICE_TXT.dds
 
 #BossGimmicks  UI - Luxord
 - name: remastered\msn\us\EH14_MS103.bar\US_EH14_MS103_bar0.png
