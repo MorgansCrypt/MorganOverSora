@@ -1163,11 +1163,13 @@ assets:
   method: copy
   source:
   - name: UI\BossGimmick\LUX_Gimmick.png
-- name: remastered\msn\us\HB33_FM_LUX.bar\US_HB33_FM_LEX_bar0.png
+
+#BossGimmicks  UI - Lexeus
+- name: remastered\msn\us\HB33_FM_LEX.bar\US_HB33_FM_LEX_bar0.png
   platform: pc
   method: copy
   source:
-  - name: UI\BossGimmick\LUX_Gimmick.png
+  - name: UI\BossGimmick\LEX_Gimmick.png
 
 
 #Save File Replacement
