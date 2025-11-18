@@ -368,7 +368,7 @@ assets:
   source:
   - name: Textures\Tron\Base.dds
 #TX_0_Tron_Base_Lightcycle
-- name: remastered\obj\P_EX100_TR.mdlx\-0.dds
+- name: remastered\obj\P_EX100_TR_LIGHTCYCLE.mdlx\-0.dds
   platform: pc
   method: copy
   source:
@@ -408,12 +408,19 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: Textures\Tron\Base.dds
+  - name: Textures\Tron\Anti.dds
+
 
 #FACES
 #TX_1_Tron_Face
 #TX_1_Tron_Base
 - name: remastered\obj\P_EX100_TR.mdlx\-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\NoEDIT\-1_TR.dds
+#TX_1_Tron_Base_Lightcycle
+- name: remastered\obj\P_EX100_TR_LIGHTCYCLE.mdlx\-1.dds
   platform: pc
   method: copy
   source:
@@ -462,6 +469,12 @@ assets:
   method: copy
   source:
   - name: Textures\NoEDIT\-2_TR.dds
+#TX_2_Tron_Base_Lightcycle
+- name: remastered\obj\P_EX100_TR_LIGHTCYCLE.mdlx\-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\NoEDIT\-2_TR.dds
 #TX_2_Tron_Valor
 - name: remastered\obj\P_EX100_TR_BTLF.mdlx\-2.dds
   platform: pc
@@ -502,6 +515,7 @@ assets:
 #TX_3_StandardWorld_Mouth
 - name: remastered\obj\P_EX100_TR.mdlx\-3.dds
   multi: 
+  - name: remastered\obj\P_EX100_TR_LIGHTCYCLE.mdlx\-3.dds
   - name: remastered\obj\P_EX100_TR_BTLF.mdlx\-3.dds
   - name: remastered\obj\P_EX100_TR_MAGF.mdlx\-3.dds
   - name: remastered\obj\P_EX100_TR_KH1F.mdlx\-3.dds
@@ -578,7 +592,7 @@ assets:
   source:
   - name: Textures\HUD\Tron\TRAnti.dds
 #Lightcycle HUD
-- name: remastered\obj\P_EX100_TR_LIGHTCYCLE.a.us\-9.dds
+- name: remastered\obj\P_EX100_TR_LIGHTCYCLE.a.us\-8.dds
   platform: pc
   method: copy
   source:
