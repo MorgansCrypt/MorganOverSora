@@ -367,6 +367,12 @@ assets:
   method: copy
   source:
   - name: Textures\Tron\Base.dds
+#TX_0_Tron_Base_Lightcycle
+- name: remastered\obj\P_EX100_TR.mdlx\-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\Tron\Base.dds
 #TX_0_Tron_Valor
 - name: remastered\obj\P_EX100_TR_BTLF.mdlx\-0.dds
   platform: pc
@@ -402,7 +408,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: Textures\Tron\Anti.dds
+  - name: Textures\Tron\Base.dds
 
 #FACES
 #TX_1_Tron_Face
@@ -571,6 +577,13 @@ assets:
   method: copy
   source:
   - name: Textures\HUD\Tron\TRAnti.dds
+#Lightcycle HUD
+- name: remastered\obj\P_EX100_TR_LIGHTCYCLE.a.us\-9.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\HUD\Tron\TRBase.dds
+
 
 
 #HALLOWEEN TOWN (NM)
@@ -1150,7 +1163,7 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: UI\BossForms\Morgan_CARD_UI.dds
+  - name: UI\BossForms\Morgan_DICE_UI.dds
 - name: remastered\obj\M_EX950_DICE.mdlx\-0.dds
   platform: pc
   method: copy
