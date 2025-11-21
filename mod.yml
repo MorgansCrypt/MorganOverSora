@@ -85,6 +85,13 @@ assets:
     source:
     - name: Base.tim
 
+#Roxas Model
+- name: obj/P_EX110.mdlx
+  platform: pc
+  method: copy
+  source:
+  - name: MDLX\P_EX110_Morgified.mdlx
+
 #STANDARDWORLD TEXTURES
 #StandardWorld_-0.dds
 #TX_0_StandardWorld
@@ -107,7 +114,6 @@ assets:
   - name: remastered\obj\PO07_PLAYER.mdlx\-0.dds
   - name: remastered\obj\PO08_PLAYER.mdlx\-0.dds
   - name: remastered\obj\WM_EX100.mdlx\-0.dds
-  - name: remastered\obj\P_EX110.mdlx\-0.dds
   platform: pc
   method: copy
   source:
@@ -177,7 +183,6 @@ assets:
   - name: remastered\obj\P_EX100_TRIF.mdlx\-1.dds
   - name: remastered\obj\P_EX100_ULTF.mdlx\-1.dds
   - name: remastered\obj\P_EX100_HTLF_BTL.mdlx\-1.dds
-  - name: remastered\obj\P_EX110.mdlx\-1.dds
   platform: pc
   method: copy
   source:
@@ -215,7 +220,6 @@ assets:
   - name: remastered\obj\P_EX100_MAGF.mdlx\-2.dds
   - name: remastered\obj\P_EX100_TRIF.mdlx\-2.dds
   - name: remastered\obj\P_EX100_ULTF.mdlx\-2.dds
-  - name: remastered\obj\P_EX110.mdlx\-2.dds
   platform: pc
   method: copy
   source:
@@ -254,7 +258,6 @@ assets:
   - name: remastered\obj\P_EX100_ULTF.mdlx\-3.dds
   - name: remastered\obj\P_EX100_HTLF.mdlx\-3.dds
   - name: remastered\obj\P_EX100_HTLF_BTL.mdlx\-3.dds
-  - name: remastered\obj\P_EX110.mdlx\-3.dds
   platform: pc
   method: copy
   source:
@@ -293,7 +296,6 @@ assets:
   - name: remastered\obj\P_EX100_ULTF.mdlx\-4.dds
   - name: remastered\obj\P_EX100_HTLF.mdlx\-4.dds
   - name: remastered\obj\P_EX100_HTLF_BTL.mdlx\-4.dds
-  - name: remastered\obj\P_EX110.mdlx\-4.dds
   platform: pc
   method: copy
   source:
