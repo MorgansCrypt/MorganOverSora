@@ -71,7 +71,6 @@ assets:
   - name: obj/PO08_PLAYER.mdlx
   - name: obj/TR_PLAYER.mdlx
   - name: obj/WM_EX100.mdlx
-  - name: obj/P_EX110.mdlx
   method: binarc
   source:
   - name: p_ex
@@ -84,13 +83,6 @@ assets:
     method: copy
     source:
     - name: Base.tim
-
-#Roxas Model
-- name: obj/P_EX110.mdlx
-  platform: pc
-  method: copy
-  source:
-  - name: MDLX\P_EX110_Morgified.mdlx
 
 #STANDARDWORLD TEXTURES
 #StandardWorld_-0.dds
