@@ -71,6 +71,7 @@ assets:
   - name: obj/PO08_PLAYER.mdlx
   - name: obj/TR_PLAYER.mdlx
   - name: obj/WM_EX100.mdlx
+  - name: obj/P_EX110.mdlx
   method: binarc
   source:
   - name: p_ex
@@ -106,6 +107,7 @@ assets:
   - name: remastered\obj\PO07_PLAYER.mdlx\-0.dds
   - name: remastered\obj\PO08_PLAYER.mdlx\-0.dds
   - name: remastered\obj\WM_EX100.mdlx\-0.dds
+  - name: remastered\obj\P_EX110.mdlx\-0.dds
   platform: pc
   method: copy
   source:
@@ -175,6 +177,7 @@ assets:
   - name: remastered\obj\P_EX100_TRIF.mdlx\-1.dds
   - name: remastered\obj\P_EX100_ULTF.mdlx\-1.dds
   - name: remastered\obj\P_EX100_HTLF_BTL.mdlx\-1.dds
+  - name: remastered\obj\P_EX110.mdlx\-1.dds
   platform: pc
   method: copy
   source:
@@ -212,6 +215,7 @@ assets:
   - name: remastered\obj\P_EX100_MAGF.mdlx\-2.dds
   - name: remastered\obj\P_EX100_TRIF.mdlx\-2.dds
   - name: remastered\obj\P_EX100_ULTF.mdlx\-2.dds
+  - name: remastered\obj\P_EX110.mdlx\-2.dds
   platform: pc
   method: copy
   source:
@@ -250,6 +254,7 @@ assets:
   - name: remastered\obj\P_EX100_ULTF.mdlx\-3.dds
   - name: remastered\obj\P_EX100_HTLF.mdlx\-3.dds
   - name: remastered\obj\P_EX100_HTLF_BTL.mdlx\-3.dds
+  - name: remastered\obj\P_EX110.mdlx\-3.dds
   platform: pc
   method: copy
   source:
@@ -288,6 +293,7 @@ assets:
   - name: remastered\obj\P_EX100_ULTF.mdlx\-4.dds
   - name: remastered\obj\P_EX100_HTLF.mdlx\-4.dds
   - name: remastered\obj\P_EX100_HTLF_BTL.mdlx\-4.dds
+  - name: remastered\obj\P_EX110.mdlx\-4.dds
   platform: pc
   method: copy
   source:
