@@ -1115,43 +1115,43 @@ assets:
   platform: pc
   method: copy
   source:
-  - name: Textures\HUD\hud_Morgan_Base.dds
+  - name: Textures\HUD\TimelessRiver\WIBase.dds
 #Valor HUD
 - name: remastered\obj\P_EX100_WI_BTLF.a.us\-4.dds
   platform: pc
   method: copy
   source:
-  - name: Textures\HUD\hud_Morgan_Valor.dds
+  - name: Textures\HUD\TimelessRiver\WIValor.dds
 #Wisdom HUD
 - name: remastered\obj\P_EX100_WI_MAGF.a.us\-2.dds
   platform: pc
   method: copy
   source:
-  - name: Textures\HUD\hud_Morgan_Wisdom.dds
+  - name: Textures\HUD\TimelessRiver\WIWisdom.dds
 #Limit HUD
 - name: remastered\obj\P_EX100_WI_KH1F.a.us\-9.dds
   platform: pc
   method: copy
   source:
-  - name: Textures\HUD\hud_Morgan_Limit.dds
+  - name: Textures\HUD\TimelessRiver\WILimit.dds
 #Master HUD
 - name: remastered\obj\P_EX100_WI_TRIF.a.us\-5.dds
   platform: pc
   method: copy
   source:
-  - name: Textures\HUD\hud_Morgan_Master.dds
+  - name: Textures\HUD\TimelessRiver\WIMaster.dds
 #Final HUD
 - name: remastered\obj\P_EX100_WI_ULTF.a.us\-10.dds
   platform: pc
   method: copy
   source:
-  - name: Textures\HUD\hud_Morgan_Final.dds
+  - name: Textures\HUD\TimelessRiver\WIFinal.dds
 #Anti HUD
 - name: remastered\obj\P_EX100_WI_HTLF.a.us\-3.dds
   platform: pc
   method: copy
   source:
-  - name: Textures\HUD\hud_Morgan_Anti.dds
+  - name: Textures\HUD\TimelessRiver\WIAnti.dds
 
 #BossForms Textures - Book
 - name: remastered\obj\B_EX410.mdlx\-1.dds
