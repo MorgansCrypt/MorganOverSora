@@ -336,6 +336,18 @@ assets:
   method: copy
   source:
   - name: Textures\HUD\hud_Morgan_Anti.dds
+#Agrabah Carpet
+- name: remastered\obj\AL14_PLAYER.a.us\-8.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\HUD\hud_Morgan_Base.dds
+- name: remastered\obj\P_EX100_AL_CARPET.a.us\-8.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\HUD\hud_Morgan_Base.dds
+
 
 #SPACE PARANOIDS (TR)
 - name: obj/P_EX100_TR.mdlx
